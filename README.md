@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# CineStar Max - Movie Ticket Booking App 🍿🎟️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+CineStar Max is a beautiful, full-stack React Native movie ticket booking application designed with a dark, premium aesthetic. It offers a seamless experience for users to browse trending movies, select their preferred showtimes, and book specific seats—all securely powered by a custom Node.js and PostgreSQL backend.
 
-## Get started
+## ✨ Key Features
+- **Secure Authentication**: User registration and login powered by JSON Web Tokens (JWT) and encrypted passwords (bcryptjs).
+- **Dynamic Seat Selection**: An interactive theater layout grid that updates seat availability in real-time.
+- **Premium UI/UX**: Slick dark mode design built using NativeWind (TailwindCSS for React Native), featuring dynamic animations and a modern tab-based navigation flow.
+- **Detailed Order Summaries**: Detailed breakdown of tickets, convenience fees, and total pricing before finalizing a transaction.
+- **Ticket History**: A personalized `Profile` tab where users can view logic their past ticket purchases.
+- **Search Capabilities**: Instantly search for currently playing movies by title or genre.
 
-1. Install dependencies
+## 📱 Screenshots
 
-   ```bash
-   npm install
-   ```
+*(Place your screenshots in a folder named `screenshots` next to this README file, and their images will appear below!)*
 
-2. Start the app
+<p align="center">
+  <img src="./screenshots/home.png" width="30%" alt="Home Screen" />
+  <img src="./screenshots/detail.png" width="30%" alt="Movie Details" />
+  <img src="./screenshots/seat.png" width="30%" alt="Seat Selection" />
+  <img src="./screenshots/sum.png" width="30%" alt="Booking Summary" />
+  <img src="./screenshots/res.png" width="30%" alt="Ticket" />
+  <img src="./screenshots/profile.png" width="30%" alt="Tickets Profile" />
+</p>
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
+- **Frontend**: React Native, Expo Router, NativeWind (Tailwind CSS)
+- **Backend**: Node.js, Express, PostgreSQL
+- **Auth & State**: AsyncStorage, JWT, React Context API
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+*Built as a showcase for a complete, end-to-end mobile booking system.*
