@@ -1,32 +1,32 @@
-# CineStar Max - Movie Ticket Booking App 🍿🎟️
+# CineStar Max - Приложение для бронирования билетов в кино
 
-CineStar Max is a beautiful, full-stack React Native movie ticket booking application designed with a dark, premium aesthetic. It offers a seamless experience for users to browse trending movies, select their preferred showtimes, and book specific seats—all securely powered by a custom Node.js and PostgreSQL backend.
+CineStar Max — это красивое full-stack приложение на React Native для покупки билетов в кино, выполненное в премиальном темном дизайне. Оно предлагает удобный интерфейс для просмотра популярных фильмов, выбора подходящего времени сеанса и бронирования конкретных мест. Вся система надежно работает на базе собственного бэкенда на Node.js и PostgreSQL.
 
-## ✨ Key Features
-- **Secure Authentication**: User registration and login powered by JSON Web Tokens (JWT) and encrypted passwords (bcryptjs).
-- **Dynamic Seat Selection**: An interactive theater layout grid that updates seat availability in real-time.
-- **Premium UI/UX**: Slick dark mode design built using NativeWind (TailwindCSS for React Native), featuring dynamic animations and a modern tab-based navigation flow.
-- **Detailed Order Summaries**: Detailed breakdown of tickets, convenience fees, and total pricing before finalizing a transaction.
-- **Ticket History**: A personalized `Profile` tab where users can view logic their past ticket purchases.
-- **Search Capabilities**: Instantly search for currently playing movies by title or genre.
+## Основные возможности
+- **Безопасная аутентификация:** Регистрация и авторизация пользователей с использованием JSON Web Tokens (JWT) и шифрованием паролей (bcryptjs).
+- **Динамический выбор мест:** Интерактивная схема зала, которая обновляет доступность мест в реальном времени.
+- **Премиальный UI/UX:** Стильный темный дизайн, созданный с помощью NativeWind (TailwindCSS для React Native), с плавной анимацией и современной навигацией по вкладкам.
+- **Детализация заказа:** Подробная разбивка стоимости билетов, сервисных сборов и итоговой суммы перед подтверждением оплаты.
+- **История билетов:** Личная вкладка профиля, где пользователи могут просматривать свои прошлые покупки билетов.
+- **Поиск:** Мгновенный поиск фильмов в прокате по названию или жанру.
 
-## 📱 Screenshots
+## Скриншоты
 
-*(Place your screenshots in a folder named `screenshots` next to this README file, and their images will appear below!)*
+*(Поместите ваши скриншоты в папку с названием `screenshots` рядом с этим файлом README, и они отобразятся ниже!)*
 
 <p align="center">
-  <img src="./screenshots/home.png" width="30%" alt="Home Screen" />
-  <img src="./screenshots/detail.png" width="30%" alt="Movie Details" />
-  <img src="./screenshots/seat.png" width="30%" alt="Seat Selection" />
-  <img src="./screenshots/sum.png" width="30%" alt="Booking Summary" />
-  <img src="./screenshots/res.png" width="30%" alt="Ticket" />
-  <img src="./screenshots/profile.png" width="30%" alt="Tickets Profile" />
+  <img src="./screenshots/home.png" width="30%" alt="Главный экран" />
+  <img src="./screenshots/detail.png" width="30%" alt="Детали фильма" />
+  <img src="./screenshots/seat.png" width="30%" alt="Выбор места" />
+  <img src="./screenshots/sum.png" width="30%" alt="Детали заказа" />
+  <img src="./screenshots/res.png" width="30%" alt="Билет" />
+  <img src="./screenshots/profile.png" width="30%" alt="Профиль с билетами" />
 </p>
 
-## 🛠️ Tech Stack
-- **Frontend**: React Native, Expo Router, NativeWind (Tailwind CSS)
-- **Backend**: Node.js, Express, PostgreSQL
-- **Auth & State**: AsyncStorage, JWT, React Context API
+## Стек технологий
+- **Фронтенд:** React Native, Expo Router, NativeWind (Tailwind CSS)
+- **Бэкенд:** Node.js, Express, PostgreSQL
+- **Авторизация и стейт:** AsyncStorage, JWT, React Context API
 
 ---
-*Built as a showcase for a complete, end-to-end mobile booking system.*
+*Создано как демонстрация полноценной мобильной системы бронирования полного цикла.*
